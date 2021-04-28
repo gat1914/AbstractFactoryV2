@@ -10,6 +10,5 @@ package com.company;/*
  */
 public interface AddressPhoneFactory {
     public Address createAddress();
-
     public PhoneNumber createPhoneNumber();
 }
