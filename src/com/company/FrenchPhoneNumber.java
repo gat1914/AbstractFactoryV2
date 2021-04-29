@@ -26,7 +26,7 @@ public class FrenchPhoneNumber extends PhoneNumber {
         else
             System.out.println("Number is not correct");
         if (cnt > 9)
-            System.out.println("Number lenght is not correct");
+            System.out.println("Number length is not correct");
         else
             super.setPhoneNumber(newNumber);
     }
